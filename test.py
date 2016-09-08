@@ -21,4 +21,4 @@ print('git checkout -b branchname')
 print('git checkout branchname')
 print('git branch branchname')
 print('git merge branchname')
-feature1
+feature1 and  featrue2
