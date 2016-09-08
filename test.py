@@ -23,3 +23,5 @@ print('git branch branchname')
 print('git merge branchname')
 feature1 and  featrue2
 print('git log --graph --pretty=oneline -abbrev-commit')
+
+branch dev added
