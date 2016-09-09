@@ -29,3 +29,18 @@ branch dev added
 brach dev add again
 print('git merge --no-ff -m "" branchname')
 
+print('git stash')
+print('git stash list')
+print('git stash apply')
+print('git stash drop')
+print('git stash pop')
+
+print('git branch -d branchname')
+print('git branch -D branchname')
+
+git remote -v
+
+git push remote_git local_branchname
+git checkout -b branchname remote_git/remote_branchname
+git branch --set-upstream branchname remote_git/branchname
+git pull
