@@ -27,3 +27,4 @@ print('git log --graph --pretty=oneline -abbrev-commit')
 branch dev added
 
 brach dev add again
+print('git merge --no-ff -m "" branchname')
