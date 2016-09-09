@@ -44,3 +44,6 @@ git push remote_git local_branchname
 git checkout -b branchname remote_git/remote_branchname
 git branch --set-upstream branchname remote_git/branchname
 git pull
+
+git tag
+git tag v1.0 commit_id
