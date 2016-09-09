@@ -47,3 +47,12 @@ git pull
 
 git tag
 git tag v1.0 commit_id
+git tag -a v1.0 -m 'describe' commit_id
+
+git show v1.0
+
+git tag -d v0.1
+git push origin v0.1
+git push origin --tags
+git tag -d v0.1
+git push origin :refs/tags/v0.1
