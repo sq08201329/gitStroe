@@ -22,5 +22,7 @@ cwsunqi qi[ESC]	 	#after *
 <C-o>			#切换到 插入-普通模式
 zz			#重绘屏幕
 yt,	jA	<C-r>0	#在插入模式下 粘贴
-sun qi,sun qi
-vim.sh
+i	<C-r>=	<CR>	#计算
+i	<C-v>065	#ascii
+i	<C-v>u00bf	#16进制 unicode
+¿	
