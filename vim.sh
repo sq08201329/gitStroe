@@ -5,7 +5,7 @@
 <C-o>			#回跳
 f{char}			#匹配右边第一个char		+ + +++++++
 ; | ,			#重复f
-i<C-k>			#二合字母
+i<C-k>			#二合字母 :dig			®	®®
 <C-a><C-x>		#数字加减			138
 :%s/char/chars/gc	#:help :s询问替换		charCharchar
 
@@ -24,5 +24,8 @@ zz			#重绘屏幕
 yt,	jA	<C-r>0	#在插入模式下 粘贴
 i	<C-r>=	<CR>	#计算
 i	<C-v>065	#ascii
-i	<C-v>u00bf	#16进制 unicode
-¿	
+i	<C-v>u00bf	#16进制 unicode			¿¿¿
+ga :ascii		#编码
+:h :dig		/?I	#查看编码			Ï	
+:h digraph-table
+R gR			#替换				1234567		
