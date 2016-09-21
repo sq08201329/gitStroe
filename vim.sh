@@ -29,3 +29,11 @@ ga :ascii		#编码
 :h :dig		/?I	#查看编码			Ï	
 :h digraph-table
 R gR			#替换				1234567		
+
+
+#可视模式
+v V <C-v> 
+gv			#重选上次
+o			#切换高亮区活动端
+vit			#				<a>sunqi</a>
+
