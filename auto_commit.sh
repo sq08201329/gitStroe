@@ -1,4 +1,5 @@
 git pull
 git add *
-git commit -m "auto commit"
+git status
+git commit -m "auto commit$(date)"
 git push origin master
