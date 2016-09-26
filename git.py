@@ -56,3 +56,20 @@ git push origin v0.1
 git push origin --tags
 git tag -d v0.1
 git push origin :refs/tags/v0.1
+
+#����ʱ�
+[user]
+	email = sq08201329@126.com
+	name = sunqi
+[gui]
+	recentrepo = D:/Python/me/gitStroe
+	encoding = utf-8 #代码库统一使用utf-8  
+	encoding = utf-8 #�����ͳһʹ��utf-8
+[alias]
+	st = status
+[core]
+	quotepath = false
+[i18n]  
+	commitencoding = GB2312 #log编码，window下默认gb2312,声明后发到服务器才不会乱码  
+[svn]  
+	pathnameencoding = GB2312 #支持中文路径
