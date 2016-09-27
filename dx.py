@@ -1,6 +1,6 @@
 import docx
 
-docName = 'D:\Python\me\gitStroe\doc-test.docx'
+docName = 'D:\Python\me\gitStroe\doc test.docx'
 
 def readDocx(docName):
     fullText = []
