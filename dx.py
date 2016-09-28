@@ -1,3 +1,5 @@
+#!/usr/bin/env.exe python
+# -*-	coding: utf-8 -*-
 import docx
 
 docName = 'D:\Python\me\gitStroe\doc test.docx'
